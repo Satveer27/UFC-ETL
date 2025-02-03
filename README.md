@@ -5,4 +5,4 @@ This pipeline is created in python and using beautiful soup I scraped UFC data f
 
 The .env files contain the specific environment variables to connect to the database as well as hosting the apache airflow server. The machine learning model is deployed in amazon ECS using docker and more details including documentation can be found in the machine learning repo: https://github.com/Satveer27/UFC_ML_model
 
-**DO NOTE THE PIPELINE IS NOT RUNNING IN EC2 AS OF RIGHT NOW DUE TO AWS REQUIRING PAYMENT.**
+**Do note the pipeline is not running in AWS as of now due to AWS requiring payment. Hence the pipeline is now ran locally on my machine at certain intervals.**
